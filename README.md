@@ -22,14 +22,7 @@ In order to use Jitstreamer on your iOS/iPadOS device you need to be connected t
     - libtool
     - pkg-config
     - build-essential
-- Clone the repository and run ``cargo build --release``
 
-## [macOS Hosting Instructions](https://github.com/jkcoxson/JitStreamer/wiki/Building-and-self-hosting-on-macOS)
-
-# Usage
-- Run JitStreamer and it will create an initial config file. Edit it with a text editor.
-- Set up your own VPN. TailScale is recommended for most users as it requires minimal setup. Otherwise use options like WireGuard, OpenVPN, or ZeroTier.
-- Run ``sudo ./target/release/jit_streamer``
 
 # Bug Reporting
 - Run with the environment variable ``RUST_LOG=info`` to see debug information.
